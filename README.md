@@ -1,2 +1,6 @@
-# IceFlix
-Asignatura Sistemas Distribuidos 2021_22
+# Componentes del equipo:
+- Manuel Avilés Rodriguez
+- José Alberto Seco Sánchez-Camacho
+- Diego Sepulveda Millán
+- Andreea Tarabuta
+

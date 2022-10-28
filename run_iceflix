@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+gnome-terminal --tab --title="ICEBOX" --execute icebox --Ice.Config=configs/icebox.config
+
+sleep 1
+	
+gnome-terminal --tab --title="MAIN" --execute 	python3 ./iceflix/main.py --Ice.Config=configs/main.config
+
+sleep 1
+	
+gnome-terminal --tab --title="AUTHENTICATOR" --execute 	python3 ./iceflix/authenticator.py --Ice.Config=configs/authenticator.config
+
+sleep 1
+
+gnome-terminal --tab --title="MEDIACATALOG" --execute python3 ./iceflix/catalog.py --Ice.Config=configs/catalog.config
